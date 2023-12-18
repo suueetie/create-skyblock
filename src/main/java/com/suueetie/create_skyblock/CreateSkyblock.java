@@ -22,6 +22,7 @@ public class CreateSkyblock implements ModInitializer {
 				() -> () -> "{} is accessing Porting Lib from the client!",
 				() -> () -> "{} is accessing Porting Lib from the server!"
 		), NAME);
+
 	}
 
 	public static ResourceLocation id(String path) {
