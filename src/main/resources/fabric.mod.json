@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "create_skyblock",
+  "id": "create_recipes",
   "version": "${version}",
-  "name": "Create Skyblock",
+  "name": "Create Recipes",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "Me!"
@@ -11,15 +11,15 @@
     "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
   },
   "license": "CC0",
-  "icon": "assets/create_skyblock/icon.png",
+  "icon": "assets/create_recipes/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.suueetie.create_skyblock.CreateSkyblock"
+      "com.suueetie.create_recipes.CreateRecipes"
     ]
   },
   "mixins": [
-    "create_skyblock.mixins.json"
+    "create_recipes.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",

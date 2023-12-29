@@ -1,6 +1,4 @@
-package com.suueetie.create_skyblock.mixin;
-
-import com.suueetie.create_skyblock.CreateSkyblock;
+package com.suueetie.create_recipes.mixin;
 
 import net.minecraft.client.Minecraft;
 
@@ -15,6 +13,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class MinecraftMixin {
 	@Inject(method = "<init>", at = @At("TAIL"))
 	private void example$init(GameConfig gameConfig, CallbackInfo ci) {
-		CreateSkyblock.LOGGER.info("Hello from {}", CreateSkyblock.NAME);
+		com.suueetie.create_recipes.CreateRecipes.LOGGER.info("Hello from {}", com.suueetie.create_recipes.CreateRecipes.NAME);
 	}
 }

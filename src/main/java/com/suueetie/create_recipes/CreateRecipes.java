@@ -1,4 +1,4 @@
-package com.suueetie.create_skyblock;
+package com.suueetie.create_recipes;
 
 import com.simibubi.create.Create;
 
@@ -10,9 +10,9 @@ import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class CreateSkyblock implements ModInitializer {
-	public static final String ID = "create_skyblock";
-	public static final String NAME = "Create Skyblock";
+public class CreateRecipes implements ModInitializer {
+	public static final String ID = "create_recipes";
+	public static final String NAME = "Create Recipes";
 	public static final Logger LOGGER = LoggerFactory.getLogger(NAME);
 
 	@Override

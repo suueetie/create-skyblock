@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "minecraft:weeping_vines"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:netherrack",
+      "count": 1
+    }
+  ]
+}
