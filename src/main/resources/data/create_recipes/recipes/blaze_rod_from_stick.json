@@ -3,16 +3,17 @@
   "heatRequirement": "heated",
   "ingredients": [
     {
-      "item": "minecraft:weeping_vines"
+      "item": "minecraft:stick"
     },
     {
-      "item": "create:scorchia"
+      "amount": 250,
+      "fluid": "minecraft:lava",
+      "nbt": {}
     }
   ],
   "results": [
     {
-      "count": 1,
-      "item": "minecraft:netherrack"
+      "item": "minecraft:blaze_rod"
     }
   ]
 }

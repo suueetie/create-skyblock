@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:tuff"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:veridium"
+    }
+  ]
+}

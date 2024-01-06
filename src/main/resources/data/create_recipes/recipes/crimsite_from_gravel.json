@@ -3,16 +3,16 @@
   "heatRequirement": "heated",
   "ingredients": [
     {
-      "item": "minecraft:weeping_vines"
+      "item": "minecraft:netherrack"
     },
     {
-      "item": "create:scorchia"
+      "item": "minecraft:gravel"
     }
   ],
   "results": [
     {
       "count": 1,
-      "item": "minecraft:netherrack"
+      "item": "create:crimsite"
     }
   ]
 }

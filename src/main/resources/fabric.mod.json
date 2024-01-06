@@ -3,9 +3,9 @@
   "id": "create_recipes",
   "version": "${version}",
   "name": "Create Recipes",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "better create recipes",
   "authors": [
-    "Me!"
+    "suu"
   ],
   "contact": {
     "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
