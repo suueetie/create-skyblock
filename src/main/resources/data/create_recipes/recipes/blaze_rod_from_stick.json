@@ -1,6 +1,5 @@
 {
-  "type": "create:mixing",
-  "heatRequirement": "heated",
+  "type": "create:filling",
   "ingredients": [
     {
       "item": "minecraft:stick"
